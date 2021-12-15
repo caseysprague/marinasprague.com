@@ -22,6 +22,12 @@
                     <a class="text-blue-500 hover:text-blue-700 no-underline mt-2 md:mt-0 mr-4" href="https://twitter.com/mrsmsprague">Twitter</a>
                     <a class="text-blue-500 hover:text-blue-700 no-underline mt-2 md:mt-0 mr-4" href="https://www.linkedin.com/in/marina-sprague-6b5b14104/">LinkedIn</a>
                 </div>
+                <div class="flex flex-col md:flex-row">
+                    <a class="text-blue-500 hover:text-blue-700 no-underline mt-2 md:mt-6 mr-4" href="https://explorayaprende.weebly.com">About</a>
+                    <a class="text-blue-500 hover:text-blue-700 no-underline mt-2 md:mt-6 mr-4" href="https://explorayaprende.weebly.com/resources.html">Resources</a>
+                    <a class="text-blue-500 hover:text-blue-700 no-underline mt-2 md:mt-6 mr-4" href="https://explorayaprende.weebly.com/conferences.html">Conferences</a>
+                    <a class="text-blue-500 hover:text-blue-700 no-underline mt-2 md:mt-6 mr-4" href="https://explorayaprende.weebly.com/teacher-learning">Teacher Learning</a>
+                </div>
             </div>
         </div>
     </div>
