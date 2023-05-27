@@ -29,54 +29,66 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Spencer Sharp</title>
+        <title>Speaking - Marina Sprague</title>
         <meta
           name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
+          content="I speak at conferences and at customized training events for schools and districts."
         />
       </Head>
       <SimpleLayout
-        title="I’ve spoken at events all around the world and been interviewed for many podcasts."
-        intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
+        title="Conferences & Training"
+        intro="I speak at conferences and at customized training events for schools and districts."
       >
         <div className="space-y-20">
           <SpeakingSection title="Conferences">
             <Appearance
-              href="#"
-              title="In space, no one can watch you stream — until now"
-              description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
-              event="SysConf 2021"
+              href="https://youtu.be/uVdHCSmvixs"
+              title="Esta Fe para las nuevas generaciones"
+              description="Gain teaching strategies, trauma-informed insights, and create impactful learning environments for every child by enhance your classroom practices. We also introduced a to a comprehensive manual created specifically to support teachers in effectively teaching children the gospel, fostering spiritual growth and character development among their students. This manual was created and design in Spanish."
+              event="Eternal Love Ministries 2023"
               cta="Watch video"
             />
             <Appearance
-              href="#"
-              title="Lessons learned from our first product recall"
-              description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
-              event="Business of Startups 2020"
-              cta="Watch video"
+              title="Where do I start?"
+              description="Are you wanting to integrate STEM in your classroom but don't know how? Join us as we share simple ways to get started from our experience. We will share different ideas, projects and resources that we have used in our classrooms that you can utilize in your classroom tomorrow. We will share how we create STEM challenges, and how to integrate STEM celebrations throughout the school year."
+              event="STEM4innovation 2022, 2023"
+            />
+            <Appearance
+              title="Using Depth & Complexity to Teach Engineering"
+              description="Are you wanting to integrate STEM in your classroom but don’t know how? Join us as we share simple ways to get started from our experience. We will share different ideas, projects, and resources that we have used in our classrooms that you can utilize in your classroom tomorrow. We will share how we create STEM challenges, and how to integrate STEM celebrations throughout the school year."
+              event="STEM4innovation 2023"
+            />
+            <Appearance
+              title="STEM Notebooking made simple"
+              description="Learn how to implement Engineering Notebooks with your students emphasizing each stage in the design process using precise communication and detailed drawings. We will discuss guiding students to verbalize and develop drawings that are detailed and specific while they analyze and observe the world around them and document their questions and wonders using their field journals. We will provide strategies you can utilize in your classroom tomorrow. "
+              event="CAST 2019, STEM4innovation 2020, 2021"
+            />
+            <Appearance
+              title="Cultural Literacy in STEM"
+              description="Learn how to integrate literacy and other content areas into design challenges for cross curricular learning that will benefit all learners! We will also discuss how we tie in real world connections to design challenges to make engineering relevant to even the youngest learners!"
+              event="Region 11 Virtual Symposium 2021, STEM4innovation 2022"
+            />
+            <Appearance
+              title="Blended Learning in STEM"
+              description="Learn how to adapt Engineering Design Challenges for remote learners with limited resources! We will discuss how we modify our constraints to better meet the needs of virtual learners while providing the same rigor. We will provide examples of how we implemented the challenges while being equitable to remote and in person learners."
+              event="STEM4innovation 2021"
+            />
+            <Appearance
+              title="Putting the T in STEM"
+              description="Wanting to implement meaningful technology in your classroom and in your design challenges? Join us as we share how we use 1:1 iPads and incorporate technology daily in our Kinder and 1st-grade classes! We will show you how we use tech to promote student’s voices, develop digital menus, use Seesaw to dive deeper, and share our favorite elementary friendly apps and tech tools that can be integrated across all content areas, including engineering!"
+              event="STEM4innovation 2020"
+            />
+            <Appearance
+              title="Authentic Technology Integration in Early Elementary"
+              description="Wanting to implement more technology in your classroom but are not sure how to do it? Join us for some great ideas that you could use in your classroom tomorrow as we share how we use 1:1 iPads and technology daily in our Kinder and 1st-grade classes! Some of the things we will cover are Seesaw, Google Classroom, using digital menus, and how to meaningfully incorporate technology into all subject areas."
+              event="MiniCAST 2019, CAST 2019"
             />
           </SpeakingSection>
-          <SpeakingSection title="Podcasts">
+          <SpeakingSection title="Training">
             <Appearance
-              href="#"
-              title="Using design as a competitive advantage"
-              description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
-              event="Encoding Design, July 2022"
-              cta="Listen to podcast"
-            />
-            <Appearance
-              href="#"
-              title="Bootstrapping an aerospace company to $17M ARR"
-              description="The story of how we built one of the most promising space startups in the world without taking any capital from investors."
-              event="The Escape Velocity Show, March 2022"
-              cta="Listen to podcast"
-            />
-            <Appearance
-              href="#"
-              title="Programming your company operating system"
-              description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
-              event="How They Work Radio, September 2021"
-              cta="Listen to podcast"
+              title="Lewisville ISD"
+              description="Tailored versions of the STEM Notebooking Made Simple and Cultural Literacy in STEM conference sessions for Lewisville ISD teachers."
+              event="June 2022"
             />
           </SpeakingSection>
         </div>
