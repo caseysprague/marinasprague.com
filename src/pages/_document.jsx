@@ -41,6 +41,12 @@ export default function Document() {
       <Head>
         <script dangerouslySetInnerHTML={{ __html: modeScript }} />
         <link
+          rel="icon"
+          type="image/png"
+          href="/favicon.png"
+          sizes="any"
+        />
+        <link
           rel="alternate"
           type="application/rss+xml"
           href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.xml`}
