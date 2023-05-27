@@ -20,7 +20,7 @@ function Appearance({ title, description, event, cta, href }) {
       </Card.Title>
       <Card.Eyebrow decorate>{event}</Card.Eyebrow>
       <Card.Description>{description}</Card.Description>
-      <Card.Cta>{cta}</Card.Cta>
+      {cta && <Card.Cta>{cta}</Card.Cta>}
     </Card>
   )
 }
